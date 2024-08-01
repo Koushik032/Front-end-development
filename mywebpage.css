@@ -1,0 +1,23 @@
+body
+{
+    background-color: rgb(50, 187, 205);
+}
+header
+{
+    font-size: 30px;
+    float: left;
+    padding: 2cm left;
+}
+h1{
+    text-align: center;
+    background-color: azure;
+    border: 5px solid black;
+}
+nav{
+    padding-top: 2cm;
+    text-align: center;
+    button
+    {
+        background-color: aquamarine;
+    }
+}

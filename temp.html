@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="temp.css">
 <body>
     <section id = "temperature">
     <!--Temperature conversion section -->
@@ -24,30 +25,32 @@
 
              <!-- Label for Temperature input -->
             <label for="Temperature">Celsius</label> <br/>
-            <input type="number" id="c"> <br/>
+            <input type="number" id="c"> <br/><br>
 
             <!-- The conversion button -->
-            <button id="temperature"> Convert </button> <br/>
+            <button id="temperature"> Convert </button> <br/><br>
 
             <!-- Label for Temperature output -->
             <input type="number" id="f"> <br/>
             <label for="Temperature">Fahrenheit</label>
         </fieldset>
-
+        <br>
+        <aside>
+            To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+        </aside>
     </article>
-
-    <aside>
-        To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
-    </aside>
+    <br>
     </div>
     </section>
 
     <div id="go-home">
-        <a href="mynewwebpage.html">
+        <a href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer">
         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
         </a>
+        <footer>Learn more about HTML as a part of the IBM Fullstack Cloud Developer Certification <br>
+        </footer>
+        <br>
+        <a href="mywebpage.html"><button>Back</button></a>
     </div>
-
-    <footer>Learn more about HTML as a part of the IBM Fullstack Cloud Developer Certification</footer>
 </body>
 </html>

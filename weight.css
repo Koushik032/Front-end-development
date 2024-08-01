@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+}
+img
+{
+    float: left;   
+}
+
+
+h1
+{
+    text-align: center;
+    border: 2px solid white;
+    background-color: whitesmoke
+}
+figcaption
+{
+    text-align: center;
+    text-decoration: underline;
+}
+div
+{
+    font-size: 25px;
+}
+
+article
+{
+    legend
+    {
+        font-size: 30px;
+    }
+    font-size: large;
+    float: top right;
+
+    button
+    {
+        background-color: coral;
+    }
+
+    footer
+    {
+        float: right;
+    }
+}
+
